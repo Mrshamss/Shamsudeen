@@ -1,0 +1,63 @@
+<head>
+<style>
+*{
+    margin: auto;
+    padding: auto;
+    font-family: sans-serif;
+}
+body{
+
+    background-position: cover;
+    justify-content: center;
+    background: linear-gradient(to right, #ff105f,#ffad36);
+    
+    
+
+
+}
+
+.don{
+    height: 100%;
+    width: 100%;
+    background-image:url(bb.jpg) ;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    text-align: center;
+    size: 20px;
+
+
+}
+.don>input{
+    width: 60%;
+}
+.don>input>.sub{
+    width: 40%;
+}
+</style>
+</head>
+<center><h1><center>Make Payment</center></h1></center>
+<body>
+
+<form action="/addpayment" method="POST" class="don">
+ <!-- <div class="don"> -->
+        <input type="text" name="Student_Name" placeholder="Student_Name">
+        <br><br>
+        <input type="text" name="Student_ID" placeholder="Student_ID">
+        <br><br> 
+        <input type="text" name="Department" placeholder="Department">
+        <br><br>
+        <input type="text" name="Phone_No" placeholder="Phone_No">
+        <br><br>
+        <input type="text" name="Email" placeholder="Email">
+        <br><br>
+        <input type="text" name="Amount" placeholder="Amount">
+        <br><br>
+        <input type="date" name="Date" placeholder="Date">
+        <br><br>
+        <input type="text" name="Reciept_No" placeholder="Reciept_No">
+        <br><br>
+        <input type="submit" value="submit" class="sub">
+    <!-- </div> -->
+</form>
+</body>

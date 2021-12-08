@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>LOGIN FORM</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='style3.css')}}">
+    </head>
+    <body>
+    
+<form action="/add" method="GET">
+        <div class="hero">
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button type="button" class="toggle-btn" onclick="login()">LogIn</button>
+                </div>
+                
+                <form id="Login" class="input-group">
+                <input type="text" class="input-field" placeholder="User_Name" required>
+                <input type="text" class="input-field" placeholder="Email" required>
+                <input type="checkbox" class="check-box"><span>Remenber passoword</span>
+                <button type="submit" class="submit-JJJ1">Login</button>
+                </form>
+            
+            </div>
+            
+            
+           
+        </div>
+
+       
+        </form>
+
+
+    </body>
+</html>

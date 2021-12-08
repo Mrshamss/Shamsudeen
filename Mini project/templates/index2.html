@@ -1,0 +1,42 @@
+{% comment %} <html>
+
+<head>
+    <title></title>
+</head>
+<body>
+    <button><a href="/add">Add Student</a></button>
+
+    <table>
+
+        <tr>
+            <th>First_Name</th>
+            <th>Last_Name</th>
+            <th>Age</th>
+            <th>Department</th>
+            <th>Phone_No</th>
+            <th>Email</th>
+            <th>Details</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+
+        {% for Student in Student %}
+        <tr>
+            <td>{{Student.First_Name}}</td>
+            <td>{{Student.Last_Name}}</td>
+            <td>{{Student.Student_ID}}</td>
+            <td>{{Student.Department}}</td>
+            <td>{{Student.Phone_No}}</td>
+            <td>{{Student.Email}}</td>
+            <td><a href="/details/{{student.ID}}">Details</a></td>
+            <td><a href="/edit/{{student.ID}}">Edit</a></td>
+            <td><a href="/delete/{{student.ID}}">Delete</a></td>
+
+            </tr>
+            {% endfor %} 
+            
+    </table>
+</body>
+</html>
+
+     {% endcomment %}

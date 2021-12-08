@@ -1,0 +1,61 @@
+<html>
+
+<head>
+    <title>LOGIN</title>
+    <style>
+
+        *{
+            margin: auto;
+            padding: auto;
+            font-family: sans-serif;
+        }
+        body{
+        
+            background-position: cover;
+            justify-content: center;
+            background: linear-gradient(to right, #ff105f,#ffad36);
+            justify-content: space-between;
+            
+            
+        
+        
+        }  
+    
+    </style>
+</head>
+<body>
+    <div class="page">
+        <h2><center>Welcome to Student Record stored</center></h2>
+         </div>
+
+
+
+
+    <button><a href="/Gotologinn"><h2>Add Login</h2></a></button>
+
+
+    <table row=2>
+        <tr>
+            <th>User_Name</th>
+            <th>Email</th>
+            <th>Details</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+
+        {% for login in logins %} 
+        <tr>
+            <td>{{login.user_name}}</td>
+            <td>{{login.Email}}</td>
+            <td><a href="/details/{{login.ID}}">Details</a></td>
+            <td><a href="/edit/{{login.ID}}">Edit</a></td>
+            <td><a href="/delete/{{login.ID}}">Delete</a></td>
+
+
+        </tr>
+        {% endfor %}
+
+    </table>
+</body>
+
+</html>
