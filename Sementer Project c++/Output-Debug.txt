@@ -1,0 +1,18 @@
+﻿'Sementer Project c++.exe' (Win32): Loaded 'C:\Users\CHAMS PLC 017\Desktop\calcu\Sementer Project c++\Debug\Sementer Project c++.exe'. Symbols loaded.
+'Sementer Project c++.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ntdll.dll'. 
+'Sementer Project c++.exe' (Win32): Loaded 'C:\Windows\SysWOW64\kernel32.dll'. 
+'Sementer Project c++.exe' (Win32): Loaded 'C:\Windows\SysWOW64\KernelBase.dll'. 
+'Sementer Project c++.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcp140d.dll'. 
+'Sementer Project c++.exe' (Win32): Loaded 'C:\Windows\SysWOW64\vcruntime140d.dll'. 
+'Sementer Project c++.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ucrtbased.dll'. 
+The thread 0x4908 has exited with code 0 (0x0).
+'Sementer Project c++.exe' (Win32): Loaded 'C:\Windows\SysWOW64\kernel.appcore.dll'. 
+'Sementer Project c++.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcrt.dll'. 
+'Sementer Project c++.exe' (Win32): Loaded 'C:\Windows\SysWOW64\rpcrt4.dll'. 
+'Sementer Project c++.exe' (Win32): Loaded 'C:\Windows\SysWOW64\sspicli.dll'. 
+'Sementer Project c++.exe' (Win32): Loaded 'C:\Windows\SysWOW64\cryptbase.dll'. 
+'Sementer Project c++.exe' (Win32): Loaded 'C:\Windows\SysWOW64\bcryptprimitives.dll'. 
+'Sementer Project c++.exe' (Win32): Loaded 'C:\Windows\SysWOW64\sechost.dll'. 
+The thread 0x2780 has exited with code 0 (0x0).
+The thread 0x1fe4 has exited with code 0 (0x0).
+The program '[12876] Sementer Project c++.exe' has exited with code 0 (0x0).
